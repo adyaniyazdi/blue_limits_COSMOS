@@ -1,0 +1,1384 @@
+2018/03/24 22:30:09.656  INFO: COSMOS Version: 4.1.1
+2018/03/24 22:30:09.666  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 22:30:09.698  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 22:30:09.712  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2018/03/24 22:30:09.718  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2018/03/24 22:30:09.731  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2018/03/24 22:30:09.737  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/03/24 22:30:09.744  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2018/03/24 22:30:09.747  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/cmd_tlm_server2.txt
+2018/03/24 22:30:09.749  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/03/24 22:30:09.751  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/03/24 22:30:09.791  INFO: Marshal load success: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/outputs/tmp/marshal_c2a0eb5930cd40465880b4cacd70c221.bin
+2018/03/24 22:30:09.894  INFO: Creating thread for router INST_ROUTER
+2018/03/24 22:30:09.895  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/03/24 22:30:09.895  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 22:30:09.896  INFO: Creating thread for interface INST_INT
+2018/03/24 22:30:09.896  INFO: Creating thread for interface INST2_INT
+2018/03/24 22:30:09.896  INFO: Creating thread for interface SYSTEM_INT
+2018/03/24 22:30:09.897  INFO: Starting packet reading for INST_ROUTER
+2018/03/24 22:30:09.897  INFO: Connecting to INST_ROUTER...
+2018/03/24 22:30:09.900  INFO: INST_ROUTER Connection Success
+2018/03/24 22:30:09.900  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 22:30:09.900  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/03/24 22:30:09.900  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/03/24 22:30:09.901  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 22:30:09.901  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/03/24 22:30:09.901  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/03/24 22:30:09.901  INFO: Starting packet reading for INST_INT
+2018/03/24 22:30:09.901  INFO: Connecting to INST_INT...
+2018/03/24 22:30:09.901  INFO: Starting packet reading for INST2_INT
+2018/03/24 22:30:09.901  INFO: Connecting to INST2_INT...
+2018/03/24 22:30:09.902  INFO: Starting packet reading for SYSTEM_INT
+2018/03/24 22:30:09.902  INFO: Connecting to SYSTEM_INT...
+2018/03/24 22:30:09.902  INFO: SYSTEM_INT Connection Success
+2018/03/24 22:30:09.915  INFO: INST_INT Connection Success
+2018/03/24 22:30:09.916  INFO: INST2_INT Connection Success
+mode
+1.0
+2018/03/24 22:30:11.432  INFO: INST2 HEALTH_STATUS MODE = 0.9428000000000054 is BLUE
+2018/03/24 22:30:11.432  INFO: INST2 HEALTH_STATUS TEMP2 = 0.013562695312501205 is GREEN
+2018/03/24 22:30:11.432  INFO: INST2 HEALTH_STATUS ACCELX = -1.0945999999999998 is GREEN
+2018/03/24 22:30:11.432  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2018/03/24 22:30:11.442  INFO: Log File Opened : C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/outputs/logs/2018_03_24_22_30_11_tlm.bin
+mode
+2.0
+2018/03/24 22:30:12.941  INFO: INST HEALTH_STATUS MODE = 1.9432000000000045 is BLUE
+2018/03/24 22:30:12.941  INFO: INST HEALTH_STATUS TEMP2 = 0.429041796875012 is GREEN
+2018/03/24 22:30:12.941  INFO: INST HEALTH_STATUS ACCELX = -0.13384999999999536 is GREEN
+2018/03/24 22:30:12.941  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+mode
+1.0
+2018/03/24 22:30:15.450  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/24 22:30:15.450  INFO: Enabling Limits Group: INST2_GROUND
+mode
+0.0
+mode
+0.0
+2018/03/24 22:30:17.851  INFO: Tcpip server accepted connection from (127.0.0.1):26051
+mode
+0.0
+mode
+0.0
+2018/03/24 22:30:20.488  ERROR: INST2_INT - Unknown 10 byte packet starting: 00000000000000000000
+mode
+0.0
+2018/03/24 22:30:21.993  ERROR: INST_INT - Unknown 10 byte packet starting: 00000000000000000000
+mode
+0.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:30:26.512  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:30:28.017  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+2018/03/24 22:30:41.574  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:30:41.574  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:30:43.076  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:30:43.076  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:30:56.640  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:30:58.149  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:31:11.692  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:31:11.692  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:31:13.193  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:31:13.193  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:31:26.767  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:31:28.271  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:31:41.936  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:31:41.936  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:31:43.441  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:31:43.442  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:31:57.013  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:31:58.514  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:32:12.064  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:32:12.064  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:32:13.568  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:32:13.568  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:32:27.128  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:32:28.632  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:32:42.191  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:32:42.191  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:32:43.710  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:32:43.710  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+2018/03/24 22:32:57.269  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:32:58.761  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+2018/03/24 22:33:12.337  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:33:12.337  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:33:13.865  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:33:13.865  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:33:27.431  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:33:28.934  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:33:42.536  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:33:42.536  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:33:44.040  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:33:44.040  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+2018/03/24 22:33:57.600  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:33:59.103  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:34:12.641  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:34:12.641  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+2018/03/24 22:34:14.145  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:34:14.145  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:34:27.701  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:34:29.223  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:34:42.827  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:34:42.827  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+2018/03/24 22:34:44.332  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:34:44.332  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+2018/03/24 22:34:57.927  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:34:59.471  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+2018/03/24 22:35:13.022  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:35:13.023  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+2018/03/24 22:35:14.538  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:35:14.539  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:35:28.128  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:35:29.630  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+2018/03/24 22:35:43.172  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:35:43.172  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+2018/03/24 22:35:44.677  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:35:44.677  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:35:58.249  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:35:59.754  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:36:13.319  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:36:13.319  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:36:14.822  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:36:14.822  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:36:28.371  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:36:29.877  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:36:43.457  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:36:43.458  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:36:44.964  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:36:44.964  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:36:58.517  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:37:00.025  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+2018/03/24 22:37:13.637  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:37:13.637  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:37:15.142  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:37:15.142  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+2018/03/24 22:37:28.696  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:37:30.215  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:37:43.780  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:37:43.780  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:37:45.282  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:37:45.282  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:37:58.829  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:38:00.334  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:38:13.931  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:38:13.931  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+2018/03/24 22:38:15.440  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:38:15.441  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+2018/03/24 22:38:29.082  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:38:30.603  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:38:44.195  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:38:44.195  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:38:45.695  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:38:45.695  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:38:59.241  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:39:00.752  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+2018/03/24 22:39:14.334  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:39:14.334  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+2018/03/24 22:39:15.844  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:39:15.844  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:39:29.397  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:39:30.901  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+1.0
+2018/03/24 22:39:44.469  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:39:44.469  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:39:45.982  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:39:45.982  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:39:59.561  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:40:01.110  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+2018/03/24 22:40:14.651  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:40:14.651  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+2018/03/24 22:40:16.158  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:40:16.158  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+2018/03/24 22:40:29.695  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:40:31.201  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:40:44.751  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:40:44.751  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:40:46.259  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:40:46.259  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:40:59.843  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:41:01.350  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+2018/03/24 22:41:14.910  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:41:14.910  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+2018/03/24 22:41:16.417  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:41:16.417  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:41:29.984  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+2018/03/24 22:41:31.500  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:41:45.039  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:41:45.039  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+2018/03/24 22:41:46.545  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:41:46.545  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+2018/03/24 22:42:00.102  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:42:01.606  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+2018/03/24 22:42:15.159  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:42:15.159  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+2018/03/24 22:42:16.664  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 22:42:16.664  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+2018/03/24 22:42:30.256  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+2018/03/24 22:42:31.766  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+2.0
+2018/03/24 22:42:45.353  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:42:45.353  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+0.0
+2018/03/24 22:42:46.859  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 22:42:46.859  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+1.0
+2018/03/24 22:43:00.424  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+1.0
+2018/03/24 22:43:01.929  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+mode
+2.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+2018/03/24 22:43:12.455  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:12.455  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:13.963  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:13.963  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:17.475  INFO: Connecting to INST2_INT...
+2018/03/24 22:43:17.475  INFO: INST2_INT Connection Success
+2018/03/24 22:43:17.513  INFO: Tcpip server lost read connection to (127.0.0.1):26051
+2018/03/24 22:43:17.596  INFO: Tcpip server lost write connection to (127.0.0.1):26051
+2018/03/24 22:43:18.975  INFO: Connecting to INST_INT...
+2018/03/24 22:43:18.975  INFO: INST_INT Connection Success
+2018/03/24 22:43:19.484  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:19.484  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:20.983  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:20.983  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:24.496  INFO: Connecting to INST2_INT...
+2018/03/24 22:43:24.496  INFO: INST2_INT Connection Success
+2018/03/24 22:43:25.994  INFO: Connecting to INST_INT...
+2018/03/24 22:43:25.994  INFO: INST_INT Connection Success
+2018/03/24 22:43:26.502  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:26.502  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:27.997  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:27.998  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:31.512  INFO: Connecting to INST2_INT...
+2018/03/24 22:43:31.512  INFO: INST2_INT Connection Success
+2018/03/24 22:43:33.008  INFO: Connecting to INST_INT...
+2018/03/24 22:43:33.008  INFO: INST_INT Connection Success
+2018/03/24 22:43:33.516  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:33.516  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:35.013  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 22:43:35.013  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 22:43:38.526  INFO: Connecting to INST2_INT...
+2018/03/24 22:43:38.526  INFO: INST2_INT Connection Success
+2018/03/24 22:43:39.127  INFO: Log File Closed : C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/outputs/logs/2018_03_24_22_30_11_tlm.bin
+2018/03/24 22:43:39.127  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/03/24 22:43:39.127  INFO: Connection Lost for SYSTEM_INT
+2018/03/24 22:43:39.227  INFO: Killing thread for router INST_ROUTER
+2018/03/24 22:43:39.228  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/03/24 22:43:39.228  INFO: Connection Lost for INST_ROUTER
+2018/03/24 22:43:39.281  INFO: Stopped packet reading for INST_ROUTER
+2018/03/24 22:43:39.292  INFO: Disconnected from router INST_ROUTER
+2018/03/24 22:43:39.292  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/03/24 22:43:39.292  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/03/24 22:43:39.292  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/03/24 22:43:39.376  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 22:43:39.377  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/03/24 22:43:39.377  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 22:43:39.380  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 22:43:39.482  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 22:43:39.504  INFO: Killing thread for interface INST_INT
+2018/03/24 22:43:39.513  INFO: Stopped packet reading for INST_INT
+2018/03/24 22:43:39.515  INFO: Disconnected from interface INST_INT
+2018/03/24 22:43:39.515  INFO: Killing thread for interface INST2_INT
+2018/03/24 22:43:40.517  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:133:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interfaces.rb:147:in `stop_thread'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:84:in `disconnect'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:44:in `block in stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `each'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:261:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:389:in `stop_threads'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:415:in `closeEvent'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `method_missing'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `exec'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:297:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:278:in `run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:641:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:531:in `catch_fatal_exception'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+  tools/CmdTlmServer:15:in `block in <main>'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/tools/tool_launch.rb:16:in `tool_launch'
+  tools/CmdTlmServer:13:in `<main>'
+  
+  Thread Backtrace:
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+
+2018/03/24 22:43:40.537  INFO: Disconnected from interface INST2_INT
+2018/03/24 22:43:40.538  INFO: Killing thread for interface SYSTEM_INT
+2018/03/24 22:43:40.543  INFO: Stopped packet reading for SYSTEM_INT
+2018/03/24 22:43:40.548  INFO: Disconnected from interface SYSTEM_INT
+2018/03/24 22:43:40.548  INFO: Disconnected from interface EXAMPLE_INT
+2018/03/24 22:43:40.548  INFO: Disconnected from interface TEMPLATED_INT

@@ -1,0 +1,197 @@
+2018/03/25 05:54:43.514  INFO: COSMOS Version: 4.1.1
+2018/03/25 05:54:43.528  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/25 05:54:43.558  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/25 05:54:43.569  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2018/03/25 05:54:43.574  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2018/03/25 05:54:43.582  INFO: Processing target definition in file 'C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2018/03/25 05:54:43.592  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/03/25 05:54:43.595  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2018/03/25 05:54:43.604  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/cmd_tlm_server2.txt
+2018/03/25 05:54:43.606  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/03/25 05:54:43.608  INFO: Processing CmdTlmServer configuration in file: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/03/25 05:54:43.630  INFO: Marshal load success: C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/outputs/tmp/marshal_c2a0eb5930cd40465880b4cacd70c221.bin
+2018/03/25 05:54:43.733  INFO: Creating thread for router INST_ROUTER
+2018/03/25 05:54:43.733  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/03/25 05:54:43.734  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/25 05:54:43.734  INFO: Creating thread for interface INST_INT
+2018/03/25 05:54:43.734  INFO: Creating thread for interface INST2_INT
+2018/03/25 05:54:43.735  INFO: Creating thread for interface SYSTEM_INT
+2018/03/25 05:54:43.735  INFO: Starting packet reading for INST_ROUTER
+2018/03/25 05:54:43.735  INFO: Connecting to INST_ROUTER...
+2018/03/25 05:54:43.736  INFO: INST_ROUTER Connection Success
+2018/03/25 05:54:43.746  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/03/25 05:54:43.746  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/03/25 05:54:43.757  INFO: Starting packet reading for INST_INT
+2018/03/25 05:54:43.767  INFO: Starting packet reading for INST2_INT
+2018/03/25 05:54:43.767  INFO: Connecting to INST2_INT...
+2018/03/25 05:54:43.777  INFO: Starting packet reading for SYSTEM_INT
+2018/03/25 05:54:43.789  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/03/25 05:54:43.797  INFO: Connecting to INST_INT...
+2018/03/25 05:54:43.809  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/03/25 05:54:43.818  INFO: Connecting to SYSTEM_INT...
+2018/03/25 05:54:43.828  INFO: INST2_INT Connection Success
+2018/03/25 05:54:43.838  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/03/25 05:54:43.841  INFO: SYSTEM_INT Connection Success
+2018/03/25 05:54:43.841  INFO: INST_INT Connection Success
+2018/03/25 05:54:43.842  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+mode
+1.0
+2018/03/25 05:54:45.343  INFO: INST2 HEALTH_STATUS MODE = 0.9428000000000054 is BLUE
+2018/03/25 05:54:45.343  INFO: INST2 HEALTH_STATUS TEMP2 = -0.7408059570312417 is GREEN
+2018/03/25 05:54:45.343  INFO: INST2 HEALTH_STATUS ACCELX = 0.3877000000000095 is GREEN
+2018/03/25 05:54:45.343  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2018/03/25 05:54:45.346  INFO: Log File Opened : C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/outputs/logs/2018_03_25_05_54_45_tlm.bin
+mode
+0.0
+2018/03/25 05:54:46.856  INFO: INST HEALTH_STATUS MODE = -0.057599999999993656 is BLUE
+2018/03/25 05:54:46.858  INFO: INST HEALTH_STATUS TEMP2 = -0.3663708007812403 is GREEN
+2018/03/25 05:54:46.858  INFO: INST HEALTH_STATUS ACCELX = 0.030850000000000932 is GREEN
+2018/03/25 05:54:46.858  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+mode
+0.0
+2018/03/25 05:54:49.283  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/25 05:54:49.283  INFO: Enabling Limits Group: INST2_GROUND
+mode
+1.0
+mode
+2.0
+mode
+1.0
+2018/03/25 05:54:53.694  INFO: Tcpip server accepted connection from (127.0.0.1):27638
+mode
+1.0
+mode
+1.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+1.0
+mode
+1.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+0.0
+mode
+2.0
+mode
+2.0
+mode
+1.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+mode
+0.0
+mode
+0.0
+mode
+2.0
+2018/03/25 05:55:44.441  INFO: Tcpip server lost read connection to (127.0.0.1):27638
+2018/03/25 05:55:44.448  INFO: Tcpip server lost write connection to (127.0.0.1):27638
+mode
+0.0
+mode
+0.0
+mode
+0.0
+2018/03/25 05:55:49.938  INFO: Log File Closed : C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/outputs/logs/2018_03_25_05_54_45_tlm.bin
+2018/03/25 05:55:49.938  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/03/25 05:55:49.938  INFO: Connection Lost for SYSTEM_INT
+2018/03/25 05:55:50.039  INFO: Killing thread for router INST_ROUTER
+2018/03/25 05:55:50.039  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/03/25 05:55:50.039  INFO: Connection Lost for INST_ROUTER
+2018/03/25 05:55:50.144  INFO: Stopped packet reading for INST_ROUTER
+2018/03/25 05:55:50.144  INFO: Disconnected from router INST_ROUTER
+2018/03/25 05:55:50.144  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/03/25 05:55:50.144  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/03/25 05:55:50.144  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+mode
+0.0
+2018/03/25 05:55:50.239  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/03/25 05:55:50.239  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/03/25 05:55:50.239  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/25 05:55:50.246  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/03/25 05:55:50.344  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/03/25 05:55:50.365  INFO: Killing thread for interface INST_INT
+2018/03/25 05:55:51.365  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:133:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interfaces.rb:147:in `stop_thread'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:84:in `disconnect'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:44:in `block in stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `each'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:261:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:389:in `stop_threads'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:415:in `closeEvent'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `method_missing'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `exec'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:297:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:278:in `run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:641:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:531:in `catch_fatal_exception'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+  tools/CmdTlmServer:15:in `block in <main>'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/tools/tool_launch.rb:16:in `tool_launch'
+  tools/CmdTlmServer:13:in `<main>'
+  
+  Thread Backtrace:
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:257:in `gets'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:257:in `block in read'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+  C:/Users/Negar/Desktop/cosmos/blue_limits_COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+
+2018/03/25 05:55:51.375  INFO: Disconnected from interface INST_INT
+2018/03/25 05:55:51.375  INFO: Killing thread for interface INST2_INT
+mode
+2.0
+2018/03/25 05:55:51.708  INFO: Stopped packet reading for INST2_INT
+2018/03/25 05:55:51.711  INFO: Disconnected from interface INST2_INT
+2018/03/25 05:55:51.711  INFO: Killing thread for interface SYSTEM_INT
+2018/03/25 05:55:51.721  INFO: Stopped packet reading for SYSTEM_INT
+2018/03/25 05:55:51.722  INFO: Disconnected from interface SYSTEM_INT
+2018/03/25 05:55:51.722  INFO: Disconnected from interface EXAMPLE_INT
+2018/03/25 05:55:51.722  INFO: Disconnected from interface TEMPLATED_INT

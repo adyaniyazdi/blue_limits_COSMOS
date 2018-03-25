@@ -118,7 +118,7 @@ module Cosmos
 
     def set_rates
       set_rate('ADCS', 10)
-      set_rate('HEALTH_STATUS', 100)
+      set_rate('HEALTH_STATUS', 3)
       set_rate('PARAMS', 100)
       set_rate('IMAGE', 100)
       set_rate('MECH', 10)
