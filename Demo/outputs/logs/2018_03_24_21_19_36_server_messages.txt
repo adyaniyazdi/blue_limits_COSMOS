@@ -1,0 +1,292 @@
+2018/03/24 21:19:35.183  INFO: COSMOS Version: 4.1.1
+2018/03/24 21:19:35.193  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 21:19:35.225  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 21:19:35.229  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2018/03/24 21:19:35.240  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2018/03/24 21:19:35.244  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2018/03/24 21:19:35.252  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/03/24 21:19:35.255  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2018/03/24 21:19:35.257  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server2.txt
+2018/03/24 21:19:35.258  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/03/24 21:19:35.268  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/03/24 21:19:35.288  INFO: Marshal load success: C:/COSMOS/Demo/outputs/tmp/marshal_c2a0eb5930cd40465880b4cacd70c221.bin
+2018/03/24 21:19:35.391  INFO: Creating thread for router INST_ROUTER
+2018/03/24 21:19:35.392  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/03/24 21:19:35.393  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:19:35.393  INFO: Creating thread for interface INST_INT
+2018/03/24 21:19:35.393  INFO: Creating thread for interface INST2_INT
+2018/03/24 21:19:35.394  INFO: Creating thread for interface SYSTEM_INT
+2018/03/24 21:19:35.394  INFO: Starting packet reading for INST_ROUTER
+2018/03/24 21:19:35.394  INFO: Connecting to INST_ROUTER...
+2018/03/24 21:19:35.395  INFO: INST_ROUTER Connection Success
+2018/03/24 21:19:35.395  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 21:19:35.395  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/03/24 21:19:35.398  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:19:35.398  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/03/24 21:19:35.398  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/03/24 21:19:35.398  INFO: Starting packet reading for INST_INT
+2018/03/24 21:19:35.398  INFO: Connecting to INST_INT...
+2018/03/24 21:19:35.398  INFO: Starting packet reading for INST2_INT
+2018/03/24 21:19:35.398  INFO: Connecting to INST2_INT...
+2018/03/24 21:19:35.399  INFO: Starting packet reading for SYSTEM_INT
+2018/03/24 21:19:35.399  INFO: Connecting to SYSTEM_INT...
+2018/03/24 21:19:35.399  INFO: SYSTEM_INT Connection Success
+2018/03/24 21:19:35.406  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/03/24 21:19:35.416  INFO: INST_INT Connection Success
+2018/03/24 21:19:35.417  INFO: INST2_INT Connection Success
+2018/03/24 21:19:37.433  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:37.433  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:37.434  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:37.434  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:40.950  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/24 21:19:40.950  INFO: Enabling Limits Group: INST2_GROUND
+2018/03/24 21:19:42.447  INFO: Connecting to INST2_INT...
+2018/03/24 21:19:42.447  INFO: INST2_INT Connection Success
+2018/03/24 21:19:43.460  INFO: Connecting to INST_INT...
+2018/03/24 21:19:43.460  INFO: INST_INT Connection Success
+2018/03/24 21:19:44.450  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:44.450  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:45.466  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:45.466  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:46.688  INFO: Tcpip server accepted connection from (127.0.0.1):24524
+2018/03/24 21:19:49.460  INFO: Connecting to INST2_INT...
+2018/03/24 21:19:49.460  INFO: INST2_INT Connection Success
+2018/03/24 21:19:50.477  INFO: Connecting to INST_INT...
+2018/03/24 21:19:50.477  INFO: INST_INT Connection Success
+2018/03/24 21:19:51.466  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:51.466  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:52.484  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:52.484  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:56.480  INFO: Connecting to INST2_INT...
+2018/03/24 21:19:56.480  INFO: INST2_INT Connection Success
+2018/03/24 21:19:56.707  INFO: Tcpip server lost read connection to (127.0.0.1):24524
+2018/03/24 21:19:56.741  INFO: Tcpip server lost write connection to (127.0.0.1):24524
+2018/03/24 21:19:57.492  INFO: Connecting to INST_INT...
+2018/03/24 21:19:57.492  INFO: INST_INT Connection Success
+2018/03/24 21:19:58.486  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:58.486  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:19:59.496  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:19:59.497  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:01.725  INFO: Tcpip server accepted connection from (127.0.0.1):24533
+2018/03/24 21:20:03.497  INFO: Connecting to INST2_INT...
+2018/03/24 21:20:03.497  INFO: INST2_INT Connection Success
+2018/03/24 21:20:04.506  INFO: Connecting to INST_INT...
+2018/03/24 21:20:04.506  INFO: INST_INT Connection Success
+2018/03/24 21:20:05.503  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:05.503  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:06.514  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:06.514  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:10.514  INFO: Connecting to INST2_INT...
+2018/03/24 21:20:10.514  INFO: INST2_INT Connection Success
+2018/03/24 21:20:11.524  INFO: Connecting to INST_INT...
+2018/03/24 21:20:11.524  INFO: INST_INT Connection Success
+2018/03/24 21:20:11.744  INFO: Tcpip server lost read connection to (127.0.0.1):24533
+2018/03/24 21:20:11.746  INFO: Tcpip server lost write connection to (127.0.0.1):24533
+2018/03/24 21:20:12.519  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:12.519  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:13.528  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:13.528  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:16.765  INFO: Tcpip server accepted connection from (127.0.0.1):24545
+2018/03/24 21:20:17.528  INFO: Connecting to INST2_INT...
+2018/03/24 21:20:17.528  INFO: INST2_INT Connection Success
+2018/03/24 21:20:18.537  INFO: Connecting to INST_INT...
+2018/03/24 21:20:18.537  INFO: INST_INT Connection Success
+2018/03/24 21:20:19.532  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:19.532  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:20.541  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:20.541  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:24.543  INFO: Connecting to INST2_INT...
+2018/03/24 21:20:24.543  INFO: INST2_INT Connection Success
+2018/03/24 21:20:25.550  INFO: Connecting to INST_INT...
+2018/03/24 21:20:25.550  INFO: INST_INT Connection Success
+2018/03/24 21:20:26.547  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:26.547  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:26.785  INFO: Tcpip server lost read connection to (127.0.0.1):24545
+2018/03/24 21:20:26.816  INFO: Tcpip server lost write connection to (127.0.0.1):24545
+2018/03/24 21:20:27.554  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:27.554  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:31.555  INFO: Connecting to INST2_INT...
+2018/03/24 21:20:31.555  INFO: INST2_INT Connection Success
+2018/03/24 21:20:31.793  INFO: Tcpip server accepted connection from (127.0.0.1):24557
+2018/03/24 21:20:32.563  INFO: Connecting to INST_INT...
+2018/03/24 21:20:32.563  INFO: INST_INT Connection Success
+2018/03/24 21:20:33.560  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:33.560  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:34.569  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:34.569  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:38.569  INFO: Connecting to INST2_INT...
+2018/03/24 21:20:38.569  INFO: INST2_INT Connection Success
+2018/03/24 21:20:38.624  INFO: Tcpip server lost read connection to (127.0.0.1):24557
+2018/03/24 21:20:38.670  INFO: Tcpip server lost write connection to (127.0.0.1):24557
+2018/03/24 21:20:39.579  INFO: Connecting to INST_INT...
+2018/03/24 21:20:39.579  INFO: INST_INT Connection Success
+2018/03/24 21:20:40.573  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:40.573  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:41.583  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:20:41.583  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:20:43.921  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/03/24 21:20:43.921  INFO: Connection Lost for SYSTEM_INT
+2018/03/24 21:20:44.021  INFO: Killing thread for router INST_ROUTER
+2018/03/24 21:20:44.021  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/03/24 21:20:44.021  INFO: Connection Lost for INST_ROUTER
+2018/03/24 21:20:44.084  INFO: Stopped packet reading for INST_ROUTER
+2018/03/24 21:20:44.094  INFO: Disconnected from router INST_ROUTER
+2018/03/24 21:20:44.094  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/03/24 21:20:44.094  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/03/24 21:20:44.094  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/03/24 21:20:44.187  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 21:20:44.187  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/03/24 21:20:44.187  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:20:44.197  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:20:44.291  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:20:44.312  INFO: Killing thread for interface INST_INT
+2018/03/24 21:20:44.313  INFO: Stopped packet reading for INST_INT
+2018/03/24 21:20:44.322  INFO: Disconnected from interface INST_INT
+2018/03/24 21:20:44.322  INFO: Killing thread for interface INST2_INT
+2018/03/24 21:20:44.324  INFO: Stopped packet reading for INST2_INT
+2018/03/24 21:20:44.332  INFO: Disconnected from interface INST2_INT
+2018/03/24 21:20:44.332  INFO: Killing thread for interface SYSTEM_INT
+2018/03/24 21:20:44.334  INFO: Stopped packet reading for SYSTEM_INT
+2018/03/24 21:20:44.343  INFO: Disconnected from interface SYSTEM_INT
+2018/03/24 21:20:44.343  INFO: Disconnected from interface EXAMPLE_INT
+2018/03/24 21:20:44.343  INFO: Disconnected from interface TEMPLATED_INT

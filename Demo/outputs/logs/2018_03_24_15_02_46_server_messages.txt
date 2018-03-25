@@ -1,0 +1,312 @@
+2018/03/24 15:02:45.081  INFO: COSMOS Version: 4.1.1
+2018/03/24 15:02:45.104  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 15:02:45.136  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 15:02:45.139  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2018/03/24 15:02:45.144  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2018/03/24 15:02:45.153  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2018/03/24 15:02:45.157  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/03/24 15:02:45.158  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2018/03/24 15:02:45.170  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server2.txt
+2018/03/24 15:02:45.172  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/03/24 15:02:45.174  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/03/24 15:02:45.196  INFO: Marshal load success: C:/COSMOS/Demo/outputs/tmp/marshal_fa9f220caa58416c33a2d6c84996eadc.bin
+2018/03/24 15:02:45.300  INFO: Creating thread for router INST_ROUTER
+2018/03/24 15:02:45.301  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/03/24 15:02:45.301  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 15:02:45.302  INFO: Creating thread for interface INST_INT
+2018/03/24 15:02:45.302  INFO: Creating thread for interface INST2_INT
+2018/03/24 15:02:45.302  INFO: Creating thread for interface SYSTEM_INT
+2018/03/24 15:02:45.303  INFO: Starting packet reading for INST_ROUTER
+2018/03/24 15:02:45.303  INFO: Connecting to INST_ROUTER...
+2018/03/24 15:02:45.303  INFO: INST_ROUTER Connection Success
+2018/03/24 15:02:45.303  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 15:02:45.303  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/03/24 15:02:45.306  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 15:02:45.306  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/03/24 15:02:45.307  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/03/24 15:02:45.307  INFO: Starting packet reading for INST_INT
+2018/03/24 15:02:45.307  INFO: Connecting to INST_INT...
+2018/03/24 15:02:45.307  INFO: Starting packet reading for INST2_INT
+2018/03/24 15:02:45.307  INFO: Connecting to INST2_INT...
+2018/03/24 15:02:45.307  INFO: Starting packet reading for SYSTEM_INT
+2018/03/24 15:02:45.307  INFO: Connecting to SYSTEM_INT...
+2018/03/24 15:02:45.307  INFO: SYSTEM_INT Connection Success
+2018/03/24 15:02:45.316  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/03/24 15:02:46.324  INFO: INST2_INT Connection Success
+2018/03/24 15:02:46.332  INFO: INST_INT Connection Success
+2018/03/24 15:02:46.352  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:02:46.373  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:02:46.388  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:02:46.395  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:02:50.861  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/24 15:02:50.861  INFO: Enabling Limits Group: INST2_GROUND
+2018/03/24 15:02:51.421  INFO: Connecting to INST_INT...
+2018/03/24 15:02:51.421  INFO: INST_INT Connection Success
+2018/03/24 15:02:51.426  INFO: Connecting to INST2_INT...
+2018/03/24 15:02:51.426  INFO: INST2_INT Connection Success
+2018/03/24 15:02:51.434  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:02:51.453  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:02:51.454  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:02:51.457  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:02:56.466  INFO: Connecting to INST_INT...
+2018/03/24 15:02:56.466  INFO: INST_INT Connection Success
+2018/03/24 15:02:56.472  INFO: Connecting to INST2_INT...
+2018/03/24 15:02:56.472  INFO: INST2_INT Connection Success
+2018/03/24 15:02:56.481  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:02:56.486  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:02:56.490  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:02:56.496  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:01.509  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:01.510  INFO: INST2_INT Connection Success
+2018/03/24 15:03:01.520  INFO: Connecting to INST_INT...
+2018/03/24 15:03:01.520  INFO: INST_INT Connection Success
+2018/03/24 15:03:01.539  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:01.558  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:01.562  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:01.566  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:06.616  INFO: Connecting to INST_INT...
+2018/03/24 15:03:06.616  INFO: INST_INT Connection Success
+2018/03/24 15:03:06.626  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:06.626  INFO: INST2_INT Connection Success
+2018/03/24 15:03:06.642  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:06.651  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:06.655  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:06.662  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:11.672  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:11.672  INFO: INST2_INT Connection Success
+2018/03/24 15:03:11.683  INFO: Connecting to INST_INT...
+2018/03/24 15:03:11.683  INFO: INST_INT Connection Success
+2018/03/24 15:03:11.700  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:11.716  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:11.727  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:11.733  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:16.747  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:16.747  INFO: INST2_INT Connection Success
+2018/03/24 15:03:16.767  INFO: Connecting to INST_INT...
+2018/03/24 15:03:16.767  INFO: INST_INT Connection Success
+2018/03/24 15:03:16.779  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:16.786  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:16.797  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:16.805  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:21.814  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:21.814  INFO: INST2_INT Connection Success
+2018/03/24 15:03:21.824  INFO: Connecting to INST_INT...
+2018/03/24 15:03:21.824  INFO: INST_INT Connection Success
+2018/03/24 15:03:21.842  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:21.852  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:21.858  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:21.867  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:26.878  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:26.878  INFO: INST2_INT Connection Success
+2018/03/24 15:03:26.902  INFO: Connecting to INST_INT...
+2018/03/24 15:03:26.902  INFO: INST_INT Connection Success
+2018/03/24 15:03:26.910  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:26.913  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:26.920  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:26.923  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:31.933  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:31.933  INFO: INST2_INT Connection Success
+2018/03/24 15:03:31.936  INFO: Connecting to INST_INT...
+2018/03/24 15:03:31.936  INFO: INST_INT Connection Success
+2018/03/24 15:03:31.940  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:31.941  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:31.944  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:31.945  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:36.954  INFO: Connecting to INST_INT...
+2018/03/24 15:03:36.954  INFO: INST_INT Connection Success
+2018/03/24 15:03:36.958  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:36.958  INFO: INST2_INT Connection Success
+2018/03/24 15:03:36.964  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:36.975  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:36.977  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:36.978  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:41.989  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:41.989  INFO: INST2_INT Connection Success
+2018/03/24 15:03:41.993  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:41.995  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:41.997  INFO: Connecting to INST_INT...
+2018/03/24 15:03:41.997  INFO: INST_INT Connection Success
+2018/03/24 15:03:42.002  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:42.005  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:47.014  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:47.014  INFO: INST2_INT Connection Success
+2018/03/24 15:03:47.017  INFO: Connecting to INST_INT...
+2018/03/24 15:03:47.017  INFO: INST_INT Connection Success
+2018/03/24 15:03:47.022  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:47.024  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:47.031  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:47.034  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:52.052  INFO: Connecting to INST_INT...
+2018/03/24 15:03:52.052  INFO: INST_INT Connection Success
+2018/03/24 15:03:52.055  INFO: Connecting to INST2_INT...
+2018/03/24 15:03:52.055  INFO: INST2_INT Connection Success
+2018/03/24 15:03:52.080  INFO: Connection Lost for INST2_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+2018/03/24 15:03:52.082  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008ef2f88>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:52.091  INFO: Connection Lost for INST_INT: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+2018/03/24 15:03:52.094  ERROR: NameError : undefined local variable or method `socket' for #<Cosmos::SimInst:0x0000000008f01d58>
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 15:03:53.758  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/03/24 15:03:53.758  INFO: Connection Lost for SYSTEM_INT
+2018/03/24 15:03:53.859  INFO: Killing thread for router INST_ROUTER
+2018/03/24 15:03:53.859  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/03/24 15:03:53.859  INFO: Connection Lost for INST_ROUTER
+2018/03/24 15:03:53.922  INFO: Stopped packet reading for INST_ROUTER
+2018/03/24 15:03:53.922  INFO: Disconnected from router INST_ROUTER
+2018/03/24 15:03:53.922  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/03/24 15:03:53.923  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/03/24 15:03:53.923  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/03/24 15:03:54.016  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 15:03:54.016  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/03/24 15:03:54.016  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 15:03:54.020  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 15:03:54.121  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 15:03:54.142  INFO: Killing thread for interface INST_INT
+2018/03/24 15:03:54.149  INFO: Stopped packet reading for INST_INT
+2018/03/24 15:03:54.153  INFO: Disconnected from interface INST_INT
+2018/03/24 15:03:54.153  INFO: Killing thread for interface INST2_INT
+2018/03/24 15:03:54.159  INFO: Stopped packet reading for INST2_INT
+2018/03/24 15:03:54.163  INFO: Disconnected from interface INST2_INT
+2018/03/24 15:03:54.163  INFO: Killing thread for interface SYSTEM_INT
+2018/03/24 15:03:54.166  INFO: Stopped packet reading for SYSTEM_INT
+2018/03/24 15:03:54.174  INFO: Disconnected from interface SYSTEM_INT
+2018/03/24 15:03:54.174  INFO: Disconnected from interface EXAMPLE_INT
+2018/03/24 15:03:54.174  INFO: Disconnected from interface TEMPLATED_INT

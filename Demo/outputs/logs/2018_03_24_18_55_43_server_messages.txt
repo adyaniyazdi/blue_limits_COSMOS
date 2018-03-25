@@ -1,0 +1,146 @@
+2018/03/24 18:55:42.664  INFO: COSMOS Version: 4.1.1
+2018/03/24 18:55:42.683  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 18:55:42.689  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 18:55:42.713  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2018/03/24 18:55:42.718  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2018/03/24 18:55:42.730  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2018/03/24 18:55:42.744  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/03/24 18:55:42.746  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2018/03/24 18:55:42.748  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server2.txt
+2018/03/24 18:55:42.751  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/03/24 18:55:42.753  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/03/24 18:55:42.780  INFO: Marshal load success: C:/COSMOS/Demo/outputs/tmp/marshal_e3d6765f0e9a69bc7b34c77919d5a060.bin
+2018/03/24 18:55:42.885  INFO: Creating thread for router INST_ROUTER
+2018/03/24 18:55:42.885  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/03/24 18:55:42.885  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 18:55:42.886  INFO: Creating thread for interface INST_INT
+2018/03/24 18:55:42.886  INFO: Creating thread for interface INST2_INT
+2018/03/24 18:55:42.887  INFO: Creating thread for interface SYSTEM_INT
+2018/03/24 18:55:42.888  INFO: Starting packet reading for INST_ROUTER
+2018/03/24 18:55:42.888  INFO: Connecting to INST_ROUTER...
+2018/03/24 18:55:42.888  INFO: INST_ROUTER Connection Success
+2018/03/24 18:55:42.888  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 18:55:42.888  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/03/24 18:55:42.894  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 18:55:42.894  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/03/24 18:55:42.895  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/03/24 18:55:42.895  INFO: Starting packet reading for INST_INT
+2018/03/24 18:55:42.895  INFO: Connecting to INST_INT...
+2018/03/24 18:55:42.895  INFO: Starting packet reading for INST2_INT
+2018/03/24 18:55:42.895  INFO: Connecting to INST2_INT...
+2018/03/24 18:55:42.895  INFO: Starting packet reading for SYSTEM_INT
+2018/03/24 18:55:42.895  INFO: Connecting to SYSTEM_INT...
+2018/03/24 18:55:42.895  INFO: SYSTEM_INT Connection Success
+2018/03/24 18:55:42.905  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/03/24 18:55:42.917  INFO: INST2_INT Connection Success
+2018/03/24 18:55:42.917  INFO: INST_INT Connection Success
+2018/03/24 18:55:44.444  INFO: Log File Opened : C:/COSMOS/Demo/outputs/logs/2018_03_24_18_55_44_tlm.bin
+2018/03/24 18:55:44.445  INFO: INST HEALTH_STATUS BATTERY = -0.8994 is BLUE
+2018/03/24 18:55:44.445  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW
+2018/03/24 18:55:44.445  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH
+2018/03/24 18:55:44.445  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2018/03/24 18:55:45.936  INFO: INST2 HEALTH_STATUS BATTERY = -0.1186000000000007 is BLUE
+2018/03/24 18:55:45.936  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW
+2018/03/24 18:55:45.936  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH
+2018/03/24 18:55:45.936  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2018/03/24 18:55:47.445  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN
+2018/03/24 18:55:47.942  INFO: Disabling Limits Group: INST2_TEMP2
+2018/03/24 18:55:47.942  INFO: Disabling Limits Group: INST2_GROUND
+2018/03/24 18:55:49.470  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/24 18:55:49.470  INFO: Enabling Limits Group: INST2_GROUND
+2018/03/24 18:55:51.952  INFO: INST2 HEALTH_STATUS TEMP2 = -23.219603808593746 is GREEN
+2018/03/24 18:55:53.458  ERROR: INST_INT - Unknown 10 byte packet starting: 00000000000000000000
+2018/03/24 18:55:54.967  ERROR: INST2_INT - Unknown 10 byte packet starting: 00000000000000000000
+2018/03/24 18:55:59.479  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+2018/03/24 18:56:00.983  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+2018/03/24 18:56:05.495  ERROR: INST HEALTH_STATUS TEMP2 = NaN is RED_LOW
+2018/03/24 18:56:07.002  ERROR: INST2 HEALTH_STATUS TEMP2 = NaN is RED_LOW
+2018/03/24 18:56:07.207  INFO: Tcpip server accepted connection from (127.0.0.1):22506
+2018/03/24 18:56:07.314  INFO: Disabling Limits Group: INST2_TEMP2
+2018/03/24 18:56:07.314  INFO: Disabling Limits Group: INST2_GROUND
+2018/03/24 18:56:14.531  WARN: INST HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 18:56:14.531  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+2018/03/24 18:56:17.537  INFO: INST HEALTH_STATUS TEMP2 = -32.71371171874999 is GREEN
+2018/03/24 18:56:20.052  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/24 18:56:20.052  INFO: Enabling Limits Group: INST2_GROUND
+2018/03/24 18:56:22.048  INFO: INST2 HEALTH_STATUS TEMP2 = -33.768612597656244 is GREEN
+2018/03/24 18:56:22.048  WARN: INST2 HEALTH_STATUS GROUND1STATUS = UNAVAILABLE is YELLOW
+2018/03/24 18:56:23.549  WARN: INST HEALTH_STATUS TEMP3 = 53.21980000000002 is YELLOW_HIGH
+2018/03/24 18:56:25.055  WARN: INST2 HEALTH_STATUS TEMP3 = 53.21980000000002 is YELLOW_HIGH
+2018/03/24 18:56:29.565  INFO: INST HEALTH_STATUS TEMP3 = 49.10840000000002 is GREEN
+2018/03/24 18:56:29.566  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+2018/03/24 18:56:31.070  INFO: INST2 HEALTH_STATUS TEMP3 = 49.10840000000002 is GREEN
+2018/03/24 18:56:31.070  WARN: INST2 HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW
+2018/03/24 18:56:44.649  INFO: INST HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 18:56:44.649  INFO: INST HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+2018/03/24 18:56:46.150  INFO: INST2 HEALTH_STATUS GROUND1STATUS = CONNECTED is GREEN
+2018/03/24 18:56:46.150  INFO: INST2 HEALTH_STATUS GROUND2STATUS = CONNECTED is GREEN
+2018/03/24 18:56:53.665  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 18:56:53.665  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 18:56:55.165  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 18:56:55.166  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 18:56:58.675  INFO: Connecting to INST_INT...
+2018/03/24 18:56:58.675  INFO: INST_INT Connection Success
+2018/03/24 18:56:58.927  INFO: Tcpip server lost read connection to (127.0.0.1):22506
+2018/03/24 18:56:58.987  INFO: Tcpip server lost write connection to (127.0.0.1):22506
+2018/03/24 18:57:00.182  INFO: Connecting to INST2_INT...
+2018/03/24 18:57:00.182  INFO: INST2_INT Connection Success
+2018/03/24 18:57:00.678  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 18:57:00.678  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 18:57:02.187  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 18:57:02.187  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:253:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:182:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 18:57:05.157  INFO: Log File Closed : C:/COSMOS/Demo/outputs/logs/2018_03_24_18_55_44_tlm.bin
+2018/03/24 18:57:05.157  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/03/24 18:57:05.157  INFO: Connection Lost for SYSTEM_INT
+2018/03/24 18:57:05.258  INFO: Killing thread for router INST_ROUTER
+2018/03/24 18:57:05.258  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/03/24 18:57:05.258  INFO: Connection Lost for INST_ROUTER
+2018/03/24 18:57:05.343  INFO: Stopped packet reading for INST_ROUTER
+2018/03/24 18:57:05.343  INFO: Disconnected from router INST_ROUTER
+2018/03/24 18:57:05.344  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/03/24 18:57:05.344  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/03/24 18:57:05.344  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/03/24 18:57:05.451  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 18:57:05.451  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/03/24 18:57:05.451  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 18:57:05.453  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 18:57:05.546  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 18:57:05.578  INFO: Killing thread for interface INST_INT
+2018/03/24 18:57:05.587  INFO: Stopped packet reading for INST_INT
+2018/03/24 18:57:05.588  INFO: Disconnected from interface INST_INT
+2018/03/24 18:57:05.589  INFO: Killing thread for interface INST2_INT
+2018/03/24 18:57:05.597  INFO: Stopped packet reading for INST2_INT
+2018/03/24 18:57:05.599  INFO: Disconnected from interface INST2_INT
+2018/03/24 18:57:05.599  INFO: Killing thread for interface SYSTEM_INT
+2018/03/24 18:57:05.605  INFO: Stopped packet reading for SYSTEM_INT
+2018/03/24 18:57:05.610  INFO: Disconnected from interface SYSTEM_INT
+2018/03/24 18:57:05.610  INFO: Disconnected from interface EXAMPLE_INT
+2018/03/24 18:57:05.610  INFO: Disconnected from interface TEMPLATED_INT

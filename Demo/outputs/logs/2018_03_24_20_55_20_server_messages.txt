@@ -1,0 +1,1304 @@
+2018/03/24 20:55:19.328  INFO: COSMOS Version: 4.1.1
+2018/03/24 20:55:19.343  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 20:55:19.371  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2018/03/24 20:55:19.379  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2018/03/24 20:55:19.383  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2018/03/24 20:55:19.396  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2018/03/24 20:55:19.399  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/03/24 20:55:19.402  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2018/03/24 20:55:19.409  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server2.txt
+2018/03/24 20:55:19.411  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/03/24 20:55:19.413  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/03/24 20:55:19.429  INFO: Marshal file does not exist: C:/COSMOS/Demo/outputs/tmp/marshal_c2a0eb5930cd40465880b4cacd70c221.bin
+2018/03/24 20:55:19.831  INFO: Creating thread for router INST_ROUTER
+2018/03/24 20:55:19.831  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/03/24 20:55:19.831  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 20:55:19.832  INFO: Creating thread for interface INST_INT
+2018/03/24 20:55:19.832  INFO: Creating thread for interface INST2_INT
+2018/03/24 20:55:19.832  INFO: Creating thread for interface SYSTEM_INT
+2018/03/24 20:55:19.833  INFO: Starting packet reading for INST_ROUTER
+2018/03/24 20:55:19.833  INFO: Connecting to INST_ROUTER...
+2018/03/24 20:55:19.834  INFO: INST_ROUTER Connection Success
+2018/03/24 20:55:19.834  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 20:55:19.834  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/03/24 20:55:19.834  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/03/24 20:55:19.834  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 20:55:19.834  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/03/24 20:55:19.835  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/03/24 20:55:19.835  INFO: Starting packet reading for INST_INT
+2018/03/24 20:55:19.835  INFO: Connecting to INST_INT...
+2018/03/24 20:55:19.835  INFO: Starting packet reading for INST2_INT
+2018/03/24 20:55:19.835  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:19.835  INFO: Starting packet reading for SYSTEM_INT
+2018/03/24 20:55:19.835  INFO: Connecting to SYSTEM_INT...
+2018/03/24 20:55:19.835  INFO: SYSTEM_INT Connection Success
+2018/03/24 20:55:19.857  INFO: INST_INT Connection Success
+2018/03/24 20:55:19.858  INFO: INST2_INT Connection Success
+2018/03/24 20:55:21.373  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:21.374  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:22.881  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:22.881  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:25.404  INFO: Enabling Limits Group: INST2_TEMP2
+2018/03/24 20:55:25.404  INFO: Enabling Limits Group: INST2_GROUND
+2018/03/24 20:55:26.388  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:26.388  INFO: INST2_INT Connection Success
+2018/03/24 20:55:27.892  INFO: Connecting to INST_INT...
+2018/03/24 20:55:27.892  INFO: INST_INT Connection Success
+2018/03/24 20:55:27.894  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:27.894  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:29.400  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:29.401  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:31.486  INFO: Tcpip server accepted connection from (127.0.0.1):24003
+2018/03/24 20:55:32.905  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:32.905  INFO: INST2_INT Connection Success
+2018/03/24 20:55:34.410  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:34.411  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:34.411  INFO: Connecting to INST_INT...
+2018/03/24 20:55:34.411  INFO: INST_INT Connection Success
+2018/03/24 20:55:35.919  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:35.919  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:39.420  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:39.420  INFO: INST2_INT Connection Success
+2018/03/24 20:55:40.927  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:40.928  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:40.930  INFO: Connecting to INST_INT...
+2018/03/24 20:55:40.930  INFO: INST_INT Connection Success
+2018/03/24 20:55:41.513  INFO: Tcpip server lost read connection to (127.0.0.1):24003
+2018/03/24 20:55:41.568  INFO: Tcpip server lost write connection to (127.0.0.1):24003
+2018/03/24 20:55:42.440  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:42.440  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:45.939  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:45.939  INFO: INST2_INT Connection Success
+2018/03/24 20:55:46.523  INFO: Tcpip server accepted connection from (127.0.0.1):24013
+2018/03/24 20:55:47.446  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:47.446  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:47.451  INFO: Connecting to INST_INT...
+2018/03/24 20:55:47.451  INFO: INST_INT Connection Success
+2018/03/24 20:55:48.956  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:48.956  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:52.456  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:52.456  INFO: INST2_INT Connection Success
+2018/03/24 20:55:53.964  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:53.964  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:53.966  INFO: Connecting to INST_INT...
+2018/03/24 20:55:53.966  INFO: INST_INT Connection Success
+2018/03/24 20:55:55.472  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:55:55.472  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:55:56.544  INFO: Tcpip server lost read connection to (127.0.0.1):24013
+2018/03/24 20:55:56.558  INFO: Tcpip server lost write connection to (127.0.0.1):24013
+2018/03/24 20:55:58.975  INFO: Connecting to INST2_INT...
+2018/03/24 20:55:58.975  INFO: INST2_INT Connection Success
+2018/03/24 20:56:00.483  INFO: Connecting to INST_INT...
+2018/03/24 20:56:00.483  INFO: INST_INT Connection Success
+2018/03/24 20:56:00.484  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:00.484  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:01.559  INFO: Tcpip server accepted connection from (127.0.0.1):24025
+2018/03/24 20:56:01.988  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:01.988  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:05.494  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:05.494  INFO: INST2_INT Connection Success
+2018/03/24 20:56:06.998  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:06.998  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:06.999  INFO: Connecting to INST_INT...
+2018/03/24 20:56:07.000  INFO: INST_INT Connection Success
+2018/03/24 20:56:08.505  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:08.505  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:11.584  INFO: Tcpip server lost read connection to (127.0.0.1):24025
+2018/03/24 20:56:11.644  INFO: Tcpip server lost write connection to (127.0.0.1):24025
+2018/03/24 20:56:12.009  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:12.009  INFO: INST2_INT Connection Success
+2018/03/24 20:56:13.515  INFO: Connecting to INST_INT...
+2018/03/24 20:56:13.516  INFO: INST_INT Connection Success
+2018/03/24 20:56:13.517  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:13.517  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:15.022  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:15.022  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:16.600  INFO: Tcpip server accepted connection from (127.0.0.1):24035
+2018/03/24 20:56:18.526  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:18.526  INFO: INST2_INT Connection Success
+2018/03/24 20:56:20.031  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:20.032  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:20.032  INFO: Connecting to INST_INT...
+2018/03/24 20:56:20.032  INFO: INST_INT Connection Success
+2018/03/24 20:56:21.538  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:21.538  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:25.042  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:25.042  INFO: INST2_INT Connection Success
+2018/03/24 20:56:26.549  INFO: Connecting to INST_INT...
+2018/03/24 20:56:26.549  INFO: INST_INT Connection Success
+2018/03/24 20:56:26.566  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:26.566  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:26.630  INFO: Tcpip server lost read connection to (127.0.0.1):24035
+2018/03/24 20:56:26.722  INFO: Tcpip server lost write connection to (127.0.0.1):24035
+2018/03/24 20:56:28.069  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:28.069  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:31.575  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:31.575  INFO: INST2_INT Connection Success
+2018/03/24 20:56:31.647  INFO: Tcpip server accepted connection from (127.0.0.1):24045
+2018/03/24 20:56:33.077  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:33.077  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:33.078  INFO: Connecting to INST_INT...
+2018/03/24 20:56:33.078  INFO: INST_INT Connection Success
+2018/03/24 20:56:34.616  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:34.616  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:38.085  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:38.085  INFO: INST2_INT Connection Success
+2018/03/24 20:56:39.590  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:39.590  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:39.626  INFO: Connecting to INST_INT...
+2018/03/24 20:56:39.626  INFO: INST_INT Connection Success
+2018/03/24 20:56:41.128  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:41.128  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:41.668  INFO: Tcpip server lost read connection to (127.0.0.1):24045
+2018/03/24 20:56:41.688  INFO: Tcpip server lost write connection to (127.0.0.1):24045
+2018/03/24 20:56:44.599  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:44.599  INFO: INST2_INT Connection Success
+2018/03/24 20:56:46.104  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:46.104  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:46.138  INFO: Connecting to INST_INT...
+2018/03/24 20:56:46.138  INFO: INST_INT Connection Success
+2018/03/24 20:56:46.681  INFO: Tcpip server accepted connection from (127.0.0.1):24056
+2018/03/24 20:56:47.649  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:47.649  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:51.115  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:51.115  INFO: INST2_INT Connection Success
+2018/03/24 20:56:52.621  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:52.621  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:52.659  INFO: Connecting to INST_INT...
+2018/03/24 20:56:52.659  INFO: INST_INT Connection Success
+2018/03/24 20:56:54.164  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:54.165  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:56.699  INFO: Tcpip server lost read connection to (127.0.0.1):24056
+2018/03/24 20:56:56.771  INFO: Tcpip server lost write connection to (127.0.0.1):24056
+2018/03/24 20:56:57.630  INFO: Connecting to INST2_INT...
+2018/03/24 20:56:57.630  INFO: INST2_INT Connection Success
+2018/03/24 20:56:59.136  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:56:59.136  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:56:59.175  INFO: Connecting to INST_INT...
+2018/03/24 20:56:59.175  INFO: INST_INT Connection Success
+2018/03/24 20:57:00.681  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:00.681  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:01.717  INFO: Tcpip server accepted connection from (127.0.0.1):24066
+2018/03/24 20:57:04.145  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:04.145  INFO: INST2_INT Connection Success
+2018/03/24 20:57:05.650  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:05.650  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:05.691  INFO: Connecting to INST_INT...
+2018/03/24 20:57:05.691  INFO: INST_INT Connection Success
+2018/03/24 20:57:07.197  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:07.197  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:10.660  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:10.660  INFO: INST2_INT Connection Success
+2018/03/24 20:57:11.747  INFO: Tcpip server lost read connection to (127.0.0.1):24066
+2018/03/24 20:57:11.750  INFO: Tcpip server lost write connection to (127.0.0.1):24066
+2018/03/24 20:57:12.166  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:12.166  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:12.206  INFO: Connecting to INST_INT...
+2018/03/24 20:57:12.206  INFO: INST_INT Connection Success
+2018/03/24 20:57:13.712  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:13.712  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:16.753  INFO: Tcpip server accepted connection from (127.0.0.1):24075
+2018/03/24 20:57:17.176  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:17.176  INFO: INST2_INT Connection Success
+2018/03/24 20:57:18.683  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:18.683  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:18.719  INFO: Connecting to INST_INT...
+2018/03/24 20:57:18.719  INFO: INST_INT Connection Success
+2018/03/24 20:57:20.226  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:20.226  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:23.692  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:23.692  INFO: INST2_INT Connection Success
+2018/03/24 20:57:25.197  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:25.197  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:25.237  INFO: Connecting to INST_INT...
+2018/03/24 20:57:25.237  INFO: INST_INT Connection Success
+2018/03/24 20:57:26.745  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:26.745  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:26.783  INFO: Tcpip server lost read connection to (127.0.0.1):24075
+2018/03/24 20:57:26.828  INFO: Tcpip server lost write connection to (127.0.0.1):24075
+2018/03/24 20:57:30.205  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:30.205  INFO: INST2_INT Connection Success
+2018/03/24 20:57:31.714  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:31.714  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:31.755  INFO: Connecting to INST_INT...
+2018/03/24 20:57:31.755  INFO: INST_INT Connection Success
+2018/03/24 20:57:31.804  INFO: Tcpip server accepted connection from (127.0.0.1):24087
+2018/03/24 20:57:33.264  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:33.264  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:36.723  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:36.723  INFO: INST2_INT Connection Success
+2018/03/24 20:57:38.229  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:38.229  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:38.273  INFO: Connecting to INST_INT...
+2018/03/24 20:57:38.273  INFO: INST_INT Connection Success
+2018/03/24 20:57:39.789  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:39.789  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:41.834  INFO: Tcpip server lost read connection to (127.0.0.1):24087
+2018/03/24 20:57:41.920  INFO: Tcpip server lost write connection to (127.0.0.1):24087
+2018/03/24 20:57:43.238  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:43.238  INFO: INST2_INT Connection Success
+2018/03/24 20:57:44.744  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:44.744  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:44.801  INFO: Connecting to INST_INT...
+2018/03/24 20:57:44.801  INFO: INST_INT Connection Success
+2018/03/24 20:57:46.306  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:46.306  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:46.848  INFO: Tcpip server accepted connection from (127.0.0.1):24097
+2018/03/24 20:57:49.753  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:49.753  INFO: INST2_INT Connection Success
+2018/03/24 20:57:51.256  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:51.256  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:51.316  INFO: Connecting to INST_INT...
+2018/03/24 20:57:51.316  INFO: INST_INT Connection Success
+2018/03/24 20:57:52.819  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:52.819  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:56.266  INFO: Connecting to INST2_INT...
+2018/03/24 20:57:56.266  INFO: INST2_INT Connection Success
+2018/03/24 20:57:56.880  INFO: Tcpip server lost read connection to (127.0.0.1):24097
+2018/03/24 20:57:56.939  INFO: Tcpip server lost write connection to (127.0.0.1):24097
+2018/03/24 20:57:57.774  INFO: Connection Lost for INST2_INT: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:57.775  ERROR: RuntimeError : Packet item 'INST2 HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:57:57.829  INFO: Connecting to INST_INT...
+2018/03/24 20:57:57.829  INFO: INST_INT Connection Success
+2018/03/24 20:57:59.334  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+2018/03/24 20:57:59.334  ERROR: RuntimeError : Packet item 'INST HEALTH_STATUS TEMP3' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:458:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:456:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/structure.rb:327:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/packets/packet.rb:613:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/simulated_target.rb:86:in `cycle_tlm_item'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:285:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:01.895  INFO: Tcpip server accepted connection from (127.0.0.1):24108
+2018/03/24 20:58:02.784  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:02.784  INFO: INST2_INT Connection Success
+2018/03/24 20:58:04.345  INFO: Connecting to INST_INT...
+2018/03/24 20:58:04.345  INFO: INST_INT Connection Success
+2018/03/24 20:58:04.791  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:04.791  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:06.350  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:06.350  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:09.805  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:09.805  INFO: INST2_INT Connection Success
+2018/03/24 20:58:11.362  INFO: Connecting to INST_INT...
+2018/03/24 20:58:11.362  INFO: INST_INT Connection Success
+2018/03/24 20:58:11.811  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:11.811  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:11.931  INFO: Tcpip server lost read connection to (127.0.0.1):24108
+2018/03/24 20:58:12.019  INFO: Tcpip server lost write connection to (127.0.0.1):24108
+2018/03/24 20:58:13.367  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:13.368  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:16.821  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:16.821  INFO: INST2_INT Connection Success
+2018/03/24 20:58:16.940  INFO: Tcpip server accepted connection from (127.0.0.1):24120
+2018/03/24 20:58:18.374  INFO: Connecting to INST_INT...
+2018/03/24 20:58:18.374  INFO: INST_INT Connection Success
+2018/03/24 20:58:18.827  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:18.827  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:20.382  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:20.383  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:23.837  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:23.837  INFO: INST2_INT Connection Success
+2018/03/24 20:58:25.392  INFO: Connecting to INST_INT...
+2018/03/24 20:58:25.392  INFO: INST_INT Connection Success
+2018/03/24 20:58:25.842  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:25.842  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:26.955  INFO: Tcpip server lost read connection to (127.0.0.1):24120
+2018/03/24 20:58:26.991  INFO: Tcpip server lost write connection to (127.0.0.1):24120
+2018/03/24 20:58:27.398  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:27.398  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:30.852  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:30.852  INFO: INST2_INT Connection Success
+2018/03/24 20:58:31.971  INFO: Tcpip server accepted connection from (127.0.0.1):24130
+2018/03/24 20:58:32.408  INFO: Connecting to INST_INT...
+2018/03/24 20:58:32.408  INFO: INST_INT Connection Success
+2018/03/24 20:58:32.857  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:32.857  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:34.416  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:34.416  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:37.867  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:37.867  INFO: INST2_INT Connection Success
+2018/03/24 20:58:39.427  INFO: Connecting to INST_INT...
+2018/03/24 20:58:39.427  INFO: INST_INT Connection Success
+2018/03/24 20:58:39.873  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:39.873  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:41.432  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:41.432  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:41.995  INFO: Tcpip server lost read connection to (127.0.0.1):24130
+2018/03/24 20:58:42.065  INFO: Tcpip server lost write connection to (127.0.0.1):24130
+2018/03/24 20:58:44.883  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:44.883  INFO: INST2_INT Connection Success
+2018/03/24 20:58:46.441  INFO: Connecting to INST_INT...
+2018/03/24 20:58:46.441  INFO: INST_INT Connection Success
+2018/03/24 20:58:46.890  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:46.890  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:47.008  INFO: Tcpip server accepted connection from (127.0.0.1):24142
+2018/03/24 20:58:48.445  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:48.445  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:51.901  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:51.901  INFO: INST2_INT Connection Success
+2018/03/24 20:58:53.454  INFO: Connecting to INST_INT...
+2018/03/24 20:58:53.454  INFO: INST_INT Connection Success
+2018/03/24 20:58:53.904  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:53.905  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:55.458  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:58:55.458  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:58:57.029  INFO: Tcpip server lost read connection to (127.0.0.1):24142
+2018/03/24 20:58:57.041  INFO: Tcpip server lost write connection to (127.0.0.1):24142
+2018/03/24 20:58:58.915  INFO: Connecting to INST2_INT...
+2018/03/24 20:58:58.915  INFO: INST2_INT Connection Success
+2018/03/24 20:59:00.469  INFO: Connecting to INST_INT...
+2018/03/24 20:59:00.469  INFO: INST_INT Connection Success
+2018/03/24 20:59:00.919  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:00.919  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:02.047  INFO: Tcpip server accepted connection from (127.0.0.1):24155
+2018/03/24 20:59:02.475  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:02.475  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:05.943  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:05.943  INFO: INST2_INT Connection Success
+2018/03/24 20:59:07.485  INFO: Connecting to INST_INT...
+2018/03/24 20:59:07.485  INFO: INST_INT Connection Success
+2018/03/24 20:59:07.948  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:07.948  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:09.492  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:09.492  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:12.073  INFO: Tcpip server lost read connection to (127.0.0.1):24155
+2018/03/24 20:59:12.125  INFO: Tcpip server lost write connection to (127.0.0.1):24155
+2018/03/24 20:59:12.959  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:12.959  INFO: INST2_INT Connection Success
+2018/03/24 20:59:14.502  INFO: Connecting to INST_INT...
+2018/03/24 20:59:14.502  INFO: INST_INT Connection Success
+2018/03/24 20:59:14.965  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:14.965  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:16.508  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:16.509  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:17.082  INFO: Tcpip server accepted connection from (127.0.0.1):24166
+2018/03/24 20:59:19.975  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:19.975  INFO: INST2_INT Connection Success
+2018/03/24 20:59:21.519  INFO: Connecting to INST_INT...
+2018/03/24 20:59:21.519  INFO: INST_INT Connection Success
+2018/03/24 20:59:21.982  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:21.982  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:23.525  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:23.525  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:26.993  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:26.993  INFO: INST2_INT Connection Success
+2018/03/24 20:59:27.105  INFO: Tcpip server lost read connection to (127.0.0.1):24166
+2018/03/24 20:59:27.110  INFO: Tcpip server lost write connection to (127.0.0.1):24166
+2018/03/24 20:59:28.534  INFO: Connecting to INST_INT...
+2018/03/24 20:59:28.534  INFO: INST_INT Connection Success
+2018/03/24 20:59:28.999  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:28.999  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:30.542  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:30.542  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:32.131  INFO: Tcpip server accepted connection from (127.0.0.1):24175
+2018/03/24 20:59:34.007  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:34.007  INFO: INST2_INT Connection Success
+2018/03/24 20:59:35.553  INFO: Connecting to INST_INT...
+2018/03/24 20:59:35.553  INFO: INST_INT Connection Success
+2018/03/24 20:59:36.013  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:36.013  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:37.560  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:37.560  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:41.023  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:41.023  INFO: INST2_INT Connection Success
+2018/03/24 20:59:42.163  INFO: Tcpip server lost read connection to (127.0.0.1):24175
+2018/03/24 20:59:42.259  INFO: Tcpip server lost write connection to (127.0.0.1):24175
+2018/03/24 20:59:42.569  INFO: Connecting to INST_INT...
+2018/03/24 20:59:42.569  INFO: INST_INT Connection Success
+2018/03/24 20:59:43.029  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:43.029  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:44.572  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:44.572  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:47.176  INFO: Tcpip server accepted connection from (127.0.0.1):24184
+2018/03/24 20:59:48.038  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:48.038  INFO: INST2_INT Connection Success
+2018/03/24 20:59:49.582  INFO: Connecting to INST_INT...
+2018/03/24 20:59:49.582  INFO: INST_INT Connection Success
+2018/03/24 20:59:50.044  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:50.044  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:51.588  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:51.588  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:55.053  INFO: Connecting to INST2_INT...
+2018/03/24 20:59:55.053  INFO: INST2_INT Connection Success
+2018/03/24 20:59:56.598  INFO: Connecting to INST_INT...
+2018/03/24 20:59:56.598  INFO: INST_INT Connection Success
+2018/03/24 20:59:57.058  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:57.058  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 20:59:57.208  INFO: Tcpip server lost read connection to (127.0.0.1):24184
+2018/03/24 20:59:57.252  INFO: Tcpip server lost write connection to (127.0.0.1):24184
+2018/03/24 20:59:58.605  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 20:59:58.605  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:02.067  INFO: Connecting to INST2_INT...
+2018/03/24 21:00:02.067  INFO: INST2_INT Connection Success
+2018/03/24 21:00:02.218  INFO: Tcpip server accepted connection from (127.0.0.1):24194
+2018/03/24 21:00:03.616  INFO: Connecting to INST_INT...
+2018/03/24 21:00:03.616  INFO: INST_INT Connection Success
+2018/03/24 21:00:04.074  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:04.074  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:05.623  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:05.623  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:09.084  INFO: Connecting to INST2_INT...
+2018/03/24 21:00:09.084  INFO: INST2_INT Connection Success
+2018/03/24 21:00:10.634  INFO: Connecting to INST_INT...
+2018/03/24 21:00:10.634  INFO: INST_INT Connection Success
+2018/03/24 21:00:11.087  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:11.087  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:12.254  INFO: Tcpip server lost read connection to (127.0.0.1):24194
+2018/03/24 21:00:12.346  INFO: Tcpip server lost write connection to (127.0.0.1):24194
+2018/03/24 21:00:12.640  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:12.640  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:16.098  INFO: Connecting to INST2_INT...
+2018/03/24 21:00:16.098  INFO: INST2_INT Connection Success
+2018/03/24 21:00:17.267  INFO: Tcpip server accepted connection from (127.0.0.1):24204
+2018/03/24 21:00:17.648  INFO: Connecting to INST_INT...
+2018/03/24 21:00:17.648  INFO: INST_INT Connection Success
+2018/03/24 21:00:18.101  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:18.102  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:19.123  INFO: Tcpip server lost read connection to (127.0.0.1):24204
+2018/03/24 21:00:19.178  INFO: Tcpip server lost write connection to (127.0.0.1):24204
+2018/03/24 21:00:19.653  INFO: Connection Lost for INST_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:19.654  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:23.109  INFO: Connecting to INST2_INT...
+2018/03/24 21:00:23.109  INFO: INST2_INT Connection Success
+2018/03/24 21:00:24.551  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/03/24 21:00:24.551  INFO: Connection Lost for SYSTEM_INT
+2018/03/24 21:00:24.651  INFO: Killing thread for router INST_ROUTER
+2018/03/24 21:00:24.652  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/03/24 21:00:24.652  INFO: Connection Lost for INST_ROUTER
+2018/03/24 21:00:24.665  INFO: Connecting to INST_INT...
+2018/03/24 21:00:24.665  INFO: INST_INT Connection Success
+2018/03/24 21:00:24.724  INFO: Stopped packet reading for INST_ROUTER
+2018/03/24 21:00:24.734  INFO: Disconnected from router INST_ROUTER
+2018/03/24 21:00:24.734  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/03/24 21:00:24.734  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/03/24 21:00:24.734  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/03/24 21:00:24.825  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/03/24 21:00:24.835  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/03/24 21:00:24.835  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:00:24.839  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:00:24.917  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/03/24 21:00:24.937  INFO: Killing thread for interface INST_INT
+2018/03/24 21:00:25.113  INFO: Connection Lost for INST2_INT: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+2018/03/24 21:00:25.113  ERROR: ECONNREFUSED : No connection could be made because the target machine actively refused it. - connect(2) for "localhost" port 3000
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2018/03/24 21:00:25.940  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:133:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interfaces.rb:147:in `stop_thread'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:84:in `disconnect'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:44:in `block in stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `each'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:261:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:389:in `stop_threads'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:415:in `closeEvent'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `method_missing'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `exec'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:297:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:278:in `run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:641:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:531:in `catch_fatal_exception'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:607:in `run'
+  tools/CmdTlmServer:15:in `block in <main>'
+  C:/COSMOS/Demo/tools/tool_launch.rb:16:in `tool_launch'
+  tools/CmdTlmServer:13:in `<main>'
+  
+  Thread Backtrace:
+  C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `initialize'
+  C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `open'
+  C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:254:in `block in read'
+  C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `each'
+  C:/COSMOS/Demo/config/targets/INST/lib/sim_inst.rb:183:in `read'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/simulated_target_interface.rb:77:in `read'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+
+2018/03/24 21:00:26.675  INFO: Disconnected from interface INST_INT
+2018/03/24 21:00:26.675  INFO: Killing thread for interface INST2_INT
+2018/03/24 21:00:26.677  INFO: Stopped packet reading for INST2_INT
+2018/03/24 21:00:26.686  INFO: Disconnected from interface INST2_INT
+2018/03/24 21:00:26.686  INFO: Killing thread for interface SYSTEM_INT
+2018/03/24 21:00:26.689  INFO: Stopped packet reading for SYSTEM_INT
+2018/03/24 21:00:26.697  INFO: Disconnected from interface SYSTEM_INT
+2018/03/24 21:00:26.697  INFO: Disconnected from interface EXAMPLE_INT
+2018/03/24 21:00:26.697  INFO: Disconnected from interface TEMPLATED_INT
